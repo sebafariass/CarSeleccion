@@ -28,7 +28,7 @@ export default {
   },
   computed: {
     Text() {
-      return `Pagina ${this.$route.params.entrada} del post `;
+      return `Estas en la pagina ${this.$route.params.entrada} del post `;
     },
   },
 };
